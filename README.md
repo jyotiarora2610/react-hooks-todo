@@ -1,6 +1,6 @@
 To see the demo, click on this https://codesandbox.io/s/github/jyotiarora2610/react-hooks-todo
 
-## react hooks
+## React Hooks
 
 This application is just a todo app using react hooks. It demonstrates how we can make our code concise, easy to understand without using lifecycle methods.
 
