@@ -91,6 +91,7 @@ const Todo = (props) => {
                     onChange={e => setValue(e.target.value)}
                     margin="normal"
                     variant="outlined"
+                    autoComplete='off'
                 />
             </form>
             <ul className={classes.list}>
