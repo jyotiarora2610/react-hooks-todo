@@ -38,8 +38,8 @@ const Todo = (props) => {
     const [value, setValue] = useState('');
     const { classes } = props;
     const today = new Date()
-    const currentDay = `${today.getDate()}-${today.getMonth()}-${today.getFullYear()}`
-    const currentTime = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`
+    const currentDay = `${today.getDate()}-${today.getMonth()+1}-${today.getFullYear()}`
+    const currentTime = `${today.getHours()}:${today.getMinutes()}`
 
     const addItem = item => {
         const updatedArray = [
